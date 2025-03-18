@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'node:lts-jod' # the image I chose 
+          default:  'alpine:latest' # the image I chose 
 
 # env:
 #   REGISTRY: ghcr.io
