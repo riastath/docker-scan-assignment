@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'alpine:3.21.0' # the image I chose 
+          default: 'alpine:3.21' # the image I chose 
 
 # env:
 #   REGISTRY: ghcr.io
