@@ -7,7 +7,7 @@ on:
     inputs:
         docker_image:
           description: 'The Docker image to scan'
-          required: truea
+          required: true
           default:  'mariadb:lts-ubi9' # the image I chose 
 
 # env:
