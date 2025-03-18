@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: truea
-          default:  'docker pull alpine:latest' # the image I chose 
+          default:  'mariadb:lts-ubi9' # the image I chose 
 
 # env:
 #   REGISTRY: ghcr.io
