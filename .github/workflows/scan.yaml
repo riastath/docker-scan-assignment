@@ -7,8 +7,8 @@ on:
     inputs:
         docker_image:
           description: 'The Docker image to scan'
-          required: true
-          default:  'alpine:latest' # the image I chose 
+          required: truea
+          default:  'docker pull alpine:latest' # the image I chose 
 
 # env:
 #   REGISTRY: ghcr.io
